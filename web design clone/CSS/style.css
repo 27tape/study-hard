@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.1111111111;
+  color: #8492A6;
+}
+
+ol,
+ul,
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #8492A6;
+}
+
+/*CODE*/
+
+.navbar {
+  width: 600px;
+  border: 1px solid #E5EAEF;
+  margin: 100px;
+}
+
+.nav-list {
+  float: left;
+  margin-right: 30px;
+  padding: 16px 20px;
+} 
+
+
+.navbar::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
